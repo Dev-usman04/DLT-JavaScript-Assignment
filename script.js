@@ -4,8 +4,12 @@
 
 const arrNumber = [3,7,2,9,5] ;
 for(let i = 0; i < arrNumber.length; i++){
-    console.log(` ${arrNumber} * ${arrNumber} = ${arrNumber * i}`)
+    //console.log(` ${arrNumber} * ${arrNumber} = ${arrNumber * i}`)
+    let element = arrNumber[i]
+    arrNumber[i] = element * element
 }
+
+console.log(arrNumber)
 
 
 
